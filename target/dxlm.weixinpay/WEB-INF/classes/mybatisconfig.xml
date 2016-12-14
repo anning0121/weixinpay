@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <!-- 数据源可以在applicationcontext中配置，也可以在这
+    <environments default="development">
+        <environment id="development">
+        <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+            <property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
+            <property name="url" value="jdbc:oracle:thin:@localhost:1521:orcl" />
+            <property name="username" value="yantai"/>
+            <property name="password" value="ok"/>
+            </dataSource>
+        </environment>
+    </environments>   -->
+    
+    
+   <!-- 匹配xml与接口 ，生成实体，也可以在applicationContext.xml的sqlsessionFactory中配置-->
+    <!--  <mappers>
+         <mapper resource="com/group/entity/WageStatistics.xml"/>
+         <mapper resource="com/group/entity/Dept.xml"/>
+         <mapper resource="com/group/entity/EmpAwardPunishment.xml"/>
+         <mapper resource="com/group/entity/WageType.xml"/>
+         <mapper resource="com/group/entity/Job.xml"/>
+         <mapper resource="com/group/entity/Employee.xml"/>
+         <mapper resource="com/group/entity/User.xml"/>
+         <mapper resource="com/group/entity/Dep.xml"/>
+         <mapper resource="com/group/entity/Jobs.xml"/>
+         <mapper resource="com/group/entity/Emp.xml"/>
+         <mapper resource="com/group/entity/EmpTransferHao.xml"/>
+		<mapper resource="com/group/entity/EmployeeHao.xml"/>
+		<mapper resource="com/group/entity/DeptHao.xml"/>
+		<mapper resource="com/group/entity/JobHao.xml"/>
+		<mapper resource="com/group/entity/EmpAwardPunishmentHao.xml"/>
+                  
+    </mappers> -->
+</configuration>
